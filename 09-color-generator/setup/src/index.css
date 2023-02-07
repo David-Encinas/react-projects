@@ -182,11 +182,18 @@ input {
 input.error {
   border: 2px solid var(--clr-red-dark);
 }
+.header {
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
 .colors {
   min-height: calc(100vh - 100px);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .color {
   padding: 1rem 2rem;
